@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="section">
+
+        <div class="menu-toggle">
+            <div class="hamburger">
+                <span></span>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <h3 id="nav-menu">Menu</h3>
+            <ul class="menu">
+                <li class="item"><a class="side-links" href="index.html">Home</a></li>
+                <li class="item"><a class="side-links" href="htmlWebsite.html">HTML</a></li>
+                <li class="item"><a class="side-links" href="cssSection.html">CSS</a></li>
+                <li class="item"><a class="side-links" href="javascriptSection.html">JavaScript</a></li>
+                <li class="item is-active"><a class="side-links" href="githubSection.html">GitHub</a></li>
+                <li class="item"><a class="side-links" href="apiSection.html">API</a></li>
+                <li class="item"><a class="side-links" href="nodeSection.html">Node.js</a></li>
+                <li class="item"><a class="side-links" href="crudSection.html">CRUD</a></li>
+                <li class="item"><a class="side-links" href="#">Blog</a></li>
+            </ul>
+        </nav>
+        <section class="main">
+            <h1 class="title">GitHub</h1>
+            <section>
+                <h3>How to fork code on GitHub</h3> 
+                <ol>
+                    <li>Go to the repo and click on the Fork which is located on the top right</li>
+                    <img class="githubImg" src="images/github1.png" alt="GitHub Image">
+                    <li>Set repository name and click "create fork"</li>
+                    <img class="githubImg" src="images/github2.png" alt="GitHub Image">
+                    <li>Open VS Code to clone it</li>
+                    <p>There are 2 ways to clone it. You can clone it by using the terminal and typing:</p>
+                    <code>git clone github.com/...</code>
+                    <p>The second way is by clicking Clone Git Repository</p>
+                    <img class="githubImg" src="images/github4.png" alt="GitHub Image">
+                    <li>Save it on your local computer</li>
+                    <li>Select repository location</li>
+                    <img class="githubImg" src="images/github5.png" alt="GitHub Image">
+                    <li>Click Open</li>
+                    <img class="githubImg" src="images/github6.png" alt="GitHub Image">
+                </ol>
+                <h3>Create a new branch after forking code</h4>
+                    <ol>
+                        <li></li>
+                    </ol>
+            </section>
+            <section>
+                <h3>Create a Pull Request</h3>
+                <ol>
+                    <li>Go to the repo and click on Pull requests</li>
+                    <li>Click on the green New pull request button on the top right</li>
+                    <img class="githubImg" src="images/github7.png" alt="GitHub Image">
+                </ol>
+    
+            </section>
+            <section>
+                <h3>Add Folder/Files to a new GitHub Repo</h3>
+                <ol>
+                    <li>Create a new repository on GitHub</li>
+                    <li>Enter git init on the terminal</li>
+                    <code> git init</code>
+                    <li>Add the files in your new local repository. This stages them for the first commit.</li>
+                    <code>git add .</code>
+                    <img class="githubImg" src="" alt="GitHub Image">
+                </ol>
+                <p>https://opensource.com/article/19/7/create-pull-request-github</p>
+                <p>https://rogerdudler.github.io/git-guide/</p>
+            </section>
+        </section>
+    </section>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
