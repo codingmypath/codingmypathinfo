@@ -15,7 +15,7 @@ body {
 .navbar {
     flex: 1 1 0;
     max-width: 20%;
-    background-color: rgb(17, 26, 109);
+    background-color: rgb(11, 19, 94);
     color: white;
 }
 
@@ -31,26 +31,40 @@ ul {
 }
 
 li {
-    padding: .5rem 0;
+    /* padding: .5rem 0; */
 }
 
 .side-links {
     text-decoration: none;
     color: white;
     padding-right: 20rem;
-    padding-bottom: 0.5rem;
-    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
     padding-left: 0.5rem;
     cursor: pointer;
+    display: flex;
+}
+
+.item {
+    /* padding: 20px 0 ; */
+}
+
+.item.is-active {
+    background: #ffffff;
+    border-radius: 2px;
+}
+
+.side-links.is-active {
+    color: black;
 }
 
 .side-links:hover {
-    color: rgb(219, 186, 0);
+    color: black;
 }
 
-.navbar .menu .item:hover, .item.is-active {
-    border-right: 2px solid rgb(219, 186, 0) ;
-    background: rgb(70, 68, 68);
+.item:hover {
+    background: rgb(221, 221, 221);
+    
 }
 
 .main {
@@ -80,7 +94,7 @@ ol {
     height: 55px;
     width: 55px;
     border-radius: 50px;
-    background-color: rgb(109, 17, 17);
+    background-color: rgb(11, 10, 94);
     cursor: pointer;
 }
 
@@ -194,4 +208,13 @@ code {
     code {
         margin-right: 0;
     }
+}
+
+.devicon {
+    color: white;
+    padding-right: 5px;
+}
+
+.devicon.is-active {
+    color: black;
 }
