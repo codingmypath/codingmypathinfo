@@ -51,7 +51,7 @@ li {
 
 .item.is-active {
     background: #ffffff;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 .side-links.is-active {
@@ -59,6 +59,10 @@ li {
 }
 
 .side-links:hover {
+    color: black;
+}
+
+.side-links:hover .devicon {
     color: black;
 }
 
@@ -178,7 +182,21 @@ code {
 /* Main Section  */
 
 
-@media (max-width:760px ) {
+.devicon {
+    color: white;
+    padding-right: 10px;
+}
+
+.devicon.is-active {
+    color: black;
+}
+
+.myLogo {
+    width: 15rem;
+    padding: 1rem 2rem;
+}
+
+@media (max-width: 860px ) {
     .menu-toggle {
         display: block;
     }
@@ -210,11 +228,10 @@ code {
     }
 }
 
-.devicon {
-    color: white;
-    padding-right: 5px;
-}
+@media (max-width: 1060px ) {
 
-.devicon.is-active {
-    color: black;
+    .myLogo {
+        width: 100%;
+        padding: 1rem 2rem;
+    } 
 }
